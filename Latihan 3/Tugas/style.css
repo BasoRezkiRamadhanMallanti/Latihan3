@@ -1,0 +1,73 @@
+::-webkit-scrollbar {
+        display: none;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-image: url('gambar batik.jpg');
+    background-size: 300px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    background-position: 10px;
+    top: 0;
+}
+.Isinya {
+    display: flex;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.nav {
+    display: flex;
+    background-color: #bc0101ca;
+    top: 0px;
+    left: 0;
+    width: 1000ch;
+    height: 100;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav {
+        width: 5000ch;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #e5e4e4ff;
+    transition: 0.3s;
+}
+
+.bawahan {
+    width: 100%;
+    height: 50px;
+    background-color: #a7a7a7a6;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
